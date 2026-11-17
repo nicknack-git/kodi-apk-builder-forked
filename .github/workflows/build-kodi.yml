@@ -25,15 +25,15 @@ on:
       app_name:
         description: 'App display name (shown on launcher)'
         required: true
-        default: 'Kodi'
+        default: 'KodiOmega'
       package_id:
         description: 'Android package ID (change to install alongside official Kodi)'
         required: true
-        default: 'org.xbmc.kodi'
+        default: 'org.xbmc.kodi.omega'
       apk_filename:
         description: 'APK file name (without .apk — leave blank to auto-generate)'
         required: false
-        default: ''
+        default: 'org.xbmc.kodi.omega-v8a-32bit'
       unknown_sources:
         description: 'Pre-enable Unknown sources (Settings > System > Add-ons)'
         required: true
